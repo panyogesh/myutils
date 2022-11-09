@@ -1,0 +1,9 @@
+https://phoenixnap.com/kb/ssh-permission-denied-publickey
+
+1. sudo nano /etc/ssh/sshd_config 
+       PasswordAuthentication -> yes
+       ChallengeResponseAuthentication -> no
+
+2. sudo systemctl restart sshd
+
+3. sshpass -p vagrant ssh vagrant@192.168.60.142
