@@ -23,4 +23,5 @@
   
 ## Building and Running the container
 * docker build .
-* docker run <ContainerId>
+* docker run ContainerId
+* sudo docker run -p 3000:80 7a767a02050e   ``` Exposes port 3000 and re-directs it Port 80 ```
