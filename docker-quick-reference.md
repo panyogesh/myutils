@@ -18,6 +18,6 @@
 * sudo docker-compose up -d
   
 ## Tagging the docker images
-* sudo docker tag <ImageName> panyogesh/<NewImageName>:<TAG>
+* sudo docker tag ImageName panyogesh/NewImageName:TAG
 * sudo docker push panyogesh/5g_agw_c_container_1_8:firstcut
   
