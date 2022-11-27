@@ -27,6 +27,7 @@
 * docker run -it ConatainerName     ```Interacting with the terminal ```
 * docker start -ai ContainerName    ```Interacting with terminal ```
 * sudo docker run -p 3000:80 7a767a02050e   ``` Exposes port 3000 and re-directs it Port 80 ```
+* sudo docker run -p 3000:80 -d --rm 7a767a02050e   ``` rm flag removed the stopped conatiner automatically ```
 
 ## Good References
 https://github.com/collabnix/dockerlabs
