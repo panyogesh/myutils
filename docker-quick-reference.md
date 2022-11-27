@@ -31,7 +31,9 @@
 * sudo docker image inspect 09dd6972778e ``` Inspect the images ```
 
 ## Other operations on containers
-sudo docker cp dummy/. Container_Name:/test
+* sudo docker cp dummy/. Container_Name:/test
+* sudo docker run -p 3000:80 -d --rm --name goalsapp 7a767a02050e ```Container naming```
+* sudo docker build -t goals:latest . ```Images naming```
 
 ## Good References
 https://github.com/collabnix/dockerlabs
