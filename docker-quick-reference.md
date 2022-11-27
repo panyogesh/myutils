@@ -11,8 +11,8 @@
 
 ## Other useful commands
 * sudo docker ps | grep pipelined | awk '{print $1}'  
-* sudo docker container logs <ContainerID>
-* docker logs --follow <container ID>
+* sudo docker container logs Container-ID
+* docker logs --follow container-ID
 * sudo docker exec -it  021410eeda79 /bin/bash
 * sudo docker-compose down
 * sudo docker-compose up -d
