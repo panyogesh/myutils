@@ -30,5 +30,8 @@
 * sudo docker run -p 3000:80 -d --rm 7a767a02050e   ``` rm flag removed the stopped conatiner automatically ```
 * sudo docker image inspect 09dd6972778e ``` Inspect the images ```
 
+## Other operations on containers
+sudo docker cp dummy/. Container_Name:/test
+
 ## Good References
 https://github.com/collabnix/dockerlabs
