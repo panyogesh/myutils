@@ -31,7 +31,7 @@
 * sudo docker image inspect 09dd6972778e ``` Inspect the images ```
 * sudo docker rm ContainerName1 ContainerName1 ``` Delete the images ```
 * sudo docker rmi ImageName
-* sudo docker image proune -a ``` Remove all unsed images with or without tags ```
+* sudo docker image prune -a ``` Remove all unsed images with or without tags ```
 
 ## Other operations on containers
 * sudo docker cp dummy/. Container_Name:/test
