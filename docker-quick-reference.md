@@ -29,6 +29,9 @@
 * sudo docker run -p 3000:80 7a767a02050e   ``` Exposes port 3000 and re-directs it Port 80 ```
 * sudo docker run -p 3000:80 -d --rm 7a767a02050e   ``` rm flag removed the stopped conatiner automatically ```
 * sudo docker image inspect 09dd6972778e ``` Inspect the images ```
+* sudo docker rm ContainerName1 ContainerName1 ``` Delete the images ```
+* sudo docker rmi ImageName
+* sudo docker image proune -a ``` Remove all unsed images with or without tags ```
 
 ## Other operations on containers
 * sudo docker cp dummy/. Container_Name:/test
