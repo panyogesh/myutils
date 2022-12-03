@@ -35,7 +35,7 @@
 
 ## Docker Volume
 * sudo docker volume ls
-
+* sudo docker run -d -p 3000:80 --rm --name feedback-app -v feedback:/app/feedback feedback-node:volumes ```Sharing app feedback on to feedback on host machine ```
 ## Other operations on containers
 * sudo docker cp dummy/. Container_Name:/test
 * sudo docker run -p 3000:80 -d --rm --name goalsapp 7a767a02050e ```Container naming```
