@@ -33,6 +33,9 @@
 * sudo docker rmi ImageName
 * sudo docker image prune -a ``` Remove all unsed images with or without tags ```
 
+## Docker Volume
+* sudo docker volume ls
+
 ## Other operations on containers
 * sudo docker cp dummy/. Container_Name:/test
 * sudo docker run -p 3000:80 -d --rm --name goalsapp 7a767a02050e ```Container naming```
