@@ -1,17 +1,6 @@
 # Reference Docker file for below experiments
-FROM node:14
-
-WORKDIR /app
-
-COPY package.json .
-
-RUN npm install
-
-COPY . .
-
-EXPOSE 80
-
-CMD [ "node", "server.js" ]
+- Most of the examples are based of : base-examples
+- Some examples like docker env setting is based of env-set-example
 
 # Quick reference command for dockers
 
