@@ -36,6 +36,7 @@
 * sudo docker rm ContainerName1 ContainerName1 ``` Delete the images ```
 * sudo docker rmi ImageName
 * sudo docker image prune -a ``` Remove all unsed images with or without tags ```
+* sudo docker build -t feedback-node:dev --buid-arg DEFAULT_PORT=8000 . ``` Add -> ARG DEFAULT_PORT=80 ENV PORT=$DEFAULT_PORT```
 
 ## Docker Volume
 * sudo docker volume ls
