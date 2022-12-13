@@ -46,5 +46,9 @@
 * sudo docker run -p 3000:80 -d --rm --name goalsapp 7a767a02050e ```Container naming```
 * sudo docker build -t goals:latest . ```Images naming```
 
+## Docker networking
+* sudo docker run  --name enbsim-app --cap-add=NET_ADMIN --device /dev/net/tun --rm -it enbsim:dec13  /bin/bash ``` To create docker wtih tun interface ```
+
 ## Good References
 https://github.com/collabnix/dockerlabs
+https://gist.github.com/ptflp/d2573ab396cfb3deb12d7cfe1ef0fa1c : For tun interface creation
