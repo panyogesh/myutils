@@ -1,4 +1,5 @@
 
-Print a repeating pattern: A1 B2 C3 	2 threads:
+Print a repeating pattern: A1 B2 C3 
+2 threads:
 	Thread-1 prints letters: A..Z
 	Thread-2 prints numbers: 1..26
