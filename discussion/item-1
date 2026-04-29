@@ -1,3 +1,11 @@
+// Custom comparator to sort records by ID in ascending order
+bool compareByID(const Record& a, const Record& b) {
+    return a.id < b.id;
+}
+
+std::sort(collection.begin(), collection.end(), compareByID);
+======================================
+
 Print a repeating pattern: A1 B2 C3 	2 threads:
 	Thread-1 prints letters: A..Z
 	Thread-2 prints numbers: 1..26
