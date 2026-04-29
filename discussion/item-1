@@ -1,0 +1,67 @@
+Each record contains the following fields:
+ID Name Start End
+
+The two documents may be separated by empty lines, and the header row may appear again before the second record.
+Your task is to:
+Read the records from both documents.
+Store the records in a suitable data structure.
+Combine all records into a single collection.
+Sort the records in ascending order based on ID.
+Print the output in the same format with a single header row.
+
+Input Format
+The input may look like the following:
+
+ID Name Start End
+16 Abraham Lincoln 1857 1967
+
+ID Name Start End
+15 Mahatma Gandhi 1898 1948
+
+Output Format
+The program should output the records sorted by ID.
+ID Name Start End
+15 Mahatma Gandhi 1898 1948
+16 Abraham Lincoln 1857 1967
+
+
+#include <iostream>
+#include <vector>
+#include <string>
+#include <sstream>
+#include <algorithm>
+ 
+struct Record {
+// Add code
+ 
+};
+ 
+int main() {
+    // Input provided as a raw string
+    std::string input = R"(
+        ID Name Start End
+        16 Abraham Lincoln 1857 1967
+ 
+        ID Name Start End
+        15 Mahatma Gandhi 1898 1948
+    )";
+ 
+    std::vector<Record> records;
+    std::stringstream ss(input);
+    std::string word;
+ 
+    while (ss >> word) {
+     // Add the code 
+    }
+ 
+    // Sort the records by ID
+    std::sort(records.begin(), records.end());
+ 
+    // Print the output
+    std::cout << "ID Name Start End" << std::endl;
+    for (const auto& rec : records) {
+        std::cout << rec.id << " " << rec.name << " " << rec.start << " " << rec.end << std::endl;
+    }
+ 
+    return 0;
+}
